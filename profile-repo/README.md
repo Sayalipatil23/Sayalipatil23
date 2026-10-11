@@ -30,7 +30,7 @@
 
 <img align="right" width="300" src="https://media.giphy.com/media/qgQUggAC3Pfv687qPC/giphy.gif" alt="coding gif"/>
 
-- 🤖 RPA Analyst with **2+ years** of hands-on experience building intelligent automation
+- 🤖 RPA Analyst with **2.6+ years** of hands-on experience building intelligent automation
 - 🏅 **UiPath Automation Developer Associate (ADA)** & **Agentic Automation Associate** certified
 - ⚙️ Experienced in **UiPath (Cloud & On-Prem), Power Automate (Desktop & Cloud), Blue Prism, Automation Anywhere**
 - 🧠 Exploring **GenAI, LLM integration, prompt engineering & agentic workflow orchestration**
