@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="900" height="300" viewBox="0 0 900 300">
+  <defs>
+    <clipPath id="c1"><rect x="40" y="70" width="0" height="30"><animate attributeName="width" values="0;0;120;120;0" keyTimes="0;.03;.08;.95;1" dur="16s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="c2"><rect x="40" y="100" width="0" height="30"><animate attributeName="width" values="0;0;420;420;0" keyTimes="0;.1;.2;.95;1" dur="16s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="c3"><rect x="40" y="130" width="0" height="30"><animate attributeName="width" values="0;0;260;260;0" keyTimes="0;.24;.3;.95;1" dur="16s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="c4"><rect x="40" y="160" width="0" height="30"><animate attributeName="width" values="0;0;640;640;0" keyTimes="0;.32;.45;.95;1" dur="16s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="c5"><rect x="40" y="190" width="0" height="30"><animate attributeName="width" values="0;0;250;250;0" keyTimes="0;.5;.58;.95;1" dur="16s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="c6"><rect x="40" y="220" width="0" height="30"><animate attributeName="width" values="0;0;480;480;0" keyTimes="0;.62;.8;.95;1" dur="16s" repeatCount="indefinite"/></rect></clipPath>
+    <clipPath id="win"><rect width="900" height="300" rx="14"/></clipPath>
+  </defs>
+  <g clip-path="url(#win)">
+    <rect width="900" height="300" fill="#0d1117"/>
+    <rect width="900" height="44" fill="#161b22"/>
+    <circle cx="26" cy="22" r="7" fill="#ff5f56"/><circle cx="50" cy="22" r="7" fill="#ffbd2e"/><circle cx="74" cy="22" r="7" fill="#27c93f"/>
+    <text x="450" y="27" text-anchor="middle" font-family="Consolas, monospace" font-size="14" fill="#8b949e">sayali@automation:~</text>
+    <g font-family="Consolas, 'Courier New', monospace" font-size="18">
+      <text x="40" y="92" fill="#27c93f" clip-path="url(#c1)">$ whoami</text>
+      <text x="40" y="122" fill="#e6edf3" clip-path="url(#c2)">&gt; Sayali Patil | RPA Analyst | Mumbai, India</text>
+      <text x="40" y="152" fill="#27c93f" clip-path="url(#c3)">$ cat certifications.txt</text>
+      <text x="40" y="182" fill="#00f5ff" clip-path="url(#c4)">&gt; UiPath ADA ✔  Agentic Automation Associate ✔  Azure ML ✔</text>
+      <text x="40" y="212" fill="#27c93f" clip-path="url(#c5)">$ ./automate --future</text>
+      <text x="40" y="242" fill="#a855f7" clip-path="url(#c6)">&gt; [██████████████████] 100%  Done ✨</text>
+      <rect x="40" y="258" width="10" height="20" fill="#00f5ff"><animate attributeName="opacity" values="1;0;1" dur="1s" repeatCount="indefinite"/></rect>
+    </g>
+  </g>
+</svg>

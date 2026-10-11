@@ -1,0 +1,36 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="200" viewBox="0 0 1000 200">
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#00f5ff"/><stop offset="1" stop-color="#a855f7"/></linearGradient>
+  </defs>
+  <g font-family="Segoe UI, Arial, sans-serif" text-anchor="middle">
+    <!-- ring helper: circumference of r=48 is ~301.6 -->
+    <g transform="translate(125,90)">
+      <circle r="48" fill="none" stroke="#30363d" stroke-width="8"/>
+      <circle r="48" fill="none" stroke="url(#g)" stroke-width="8" stroke-linecap="round" stroke-dasharray="301.6" transform="rotate(-90)">
+        <animate attributeName="stroke-dashoffset" values="301.6;120;120;301.6" keyTimes="0;.3;.9;1" dur="7s" repeatCount="indefinite"/></circle>
+      <text y="12" font-size="34" font-weight="800" fill="#00f5ff">2+</text>
+      <text y="85" font-size="15" fill="#8b949e">Years Experience</text>
+    </g>
+    <g transform="translate(375,90)">
+      <circle r="48" fill="none" stroke="#30363d" stroke-width="8"/>
+      <circle r="48" fill="none" stroke="url(#g)" stroke-width="8" stroke-linecap="round" stroke-dasharray="301.6" transform="rotate(-90)">
+        <animate attributeName="stroke-dashoffset" values="301.6;60;60;301.6" keyTimes="0;.3;.9;1" dur="7s" begin=".4s" repeatCount="indefinite"/></circle>
+      <text y="12" font-size="34" font-weight="800" fill="#a855f7">5</text>
+      <text y="85" font-size="15" fill="#8b949e">Certifications</text>
+    </g>
+    <g transform="translate(625,90)">
+      <circle r="48" fill="none" stroke="#30363d" stroke-width="8"/>
+      <circle r="48" fill="none" stroke="url(#g)" stroke-width="8" stroke-linecap="round" stroke-dasharray="301.6" transform="rotate(-90)">
+        <animate attributeName="stroke-dashoffset" values="301.6;75;75;301.6" keyTimes="0;.3;.9;1" dur="7s" begin=".8s" repeatCount="indefinite"/></circle>
+      <text y="12" font-size="34" font-weight="800" fill="#00f5ff">4</text>
+      <text y="85" font-size="15" fill="#8b949e">RPA Platforms</text>
+    </g>
+    <g transform="translate(875,90)">
+      <circle r="48" fill="none" stroke="#30363d" stroke-width="8"/>
+      <circle r="48" fill="none" stroke="url(#g)" stroke-width="8" stroke-linecap="round" stroke-dasharray="301.6" transform="rotate(-90)">
+        <animate attributeName="stroke-dashoffset" values="301.6;0;0;301.6" keyTimes="0;.3;.9;1" dur="7s" begin="1.2s" repeatCount="indefinite"/></circle>
+      <text y="14" font-size="38" font-weight="800" fill="#a855f7">∞</text>
+      <text y="85" font-size="15" fill="#8b949e">Curiosity</text>
+    </g>
+  </g>
+</svg>

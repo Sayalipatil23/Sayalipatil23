@@ -1,0 +1,54 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="360" viewBox="0 0 1000 360">
+  <defs>
+    <linearGradient id="ln" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#00f5ff"/><stop offset="1" stop-color="#a855f7"/></linearGradient>
+    <filter id="gl"><feGaussianBlur stdDeviation="3" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+  </defs>
+  <g font-family="Segoe UI, Arial, sans-serif" text-anchor="middle">
+    <!-- timeline line draws itself -->
+    <line x1="60" y1="180" x2="940" y2="180" stroke="url(#ln)" stroke-width="4" stroke-linecap="round" stroke-dasharray="880" stroke-dashoffset="880" filter="url(#gl)">
+      <animate attributeName="stroke-dashoffset" values="880;0;0;880" keyTimes="0;.3;.9;1" dur="10s" repeatCount="indefinite"/></line>
+    <!-- travelling dot -->
+    <circle cy="180" r="7" fill="#fff" filter="url(#gl)"><animate attributeName="cx" values="60;940;940;60" keyTimes="0;.3;.9;1" dur="10s" repeatCount="indefinite"/></circle>
+
+    <!-- 1: 2019 -->
+    <g>
+      <circle cx="140" cy="180" r="0" fill="#00f5ff" filter="url(#gl)"><animate attributeName="r" values="0;0;11;9;0" keyTimes="0;.05;.1;.9;1" dur="10s" repeatCount="indefinite"/></circle>
+      <g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;.08;.14;.9;1" dur="10s" repeatCount="indefinite"/>
+        <rect x="40" y="40" width="200" height="100" rx="12" fill="#161b22" stroke="#00f5ff"/>
+        <text x="140" y="68" font-size="13" fill="#00f5ff">Jun 2019 – May 2022</text>
+        <text x="140" y="92" font-size="15" font-weight="700" fill="#e6edf3">B.Sc. Information Tech</text>
+        <text x="140" y="114" font-size="12" fill="#8b949e">University of Mumbai</text>
+        <line x1="140" y1="140" x2="140" y2="170" stroke="#00f5ff" stroke-dasharray="3 3"/></g>
+    </g>
+    <!-- 2: 2021 -->
+    <g>
+      <circle cx="370" cy="180" r="0" fill="#a855f7" filter="url(#gl)"><animate attributeName="r" values="0;0;11;9;0" keyTimes="0;.12;.17;.9;1" dur="10s" repeatCount="indefinite"/></circle>
+      <g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;.15;.21;.9;1" dur="10s" repeatCount="indefinite"/>
+        <rect x="270" y="220" width="200" height="100" rx="12" fill="#161b22" stroke="#a855f7"/>
+        <text x="370" y="248" font-size="13" fill="#a855f7">Dec 2021 – Feb 2022</text>
+        <text x="370" y="272" font-size="15" font-weight="700" fill="#e6edf3">Python &amp; ML Intern</text>
+        <text x="370" y="294" font-size="12" fill="#8b949e">Pinnacle Infotech</text>
+        <line x1="370" y1="190" x2="370" y2="220" stroke="#a855f7" stroke-dasharray="3 3"/></g>
+    </g>
+    <!-- 3: MCA -->
+    <g>
+      <circle cx="620" cy="180" r="0" fill="#00f5ff" filter="url(#gl)"><animate attributeName="r" values="0;0;11;9;0" keyTimes="0;.19;.24;.9;1" dur="10s" repeatCount="indefinite"/></circle>
+      <g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;.22;.28;.9;1" dur="10s" repeatCount="indefinite"/>
+        <rect x="510" y="40" width="220" height="100" rx="12" fill="#161b22" stroke="#00f5ff"/>
+        <text x="620" y="68" font-size="13" fill="#00f5ff">Oct 2022 – May 2024</text>
+        <text x="620" y="92" font-size="15" font-weight="700" fill="#e6edf3">MCA</text>
+        <text x="620" y="114" font-size="12" fill="#8b949e">DES NMITD · Univ. of Mumbai</text>
+        <line x1="620" y1="140" x2="620" y2="170" stroke="#00f5ff" stroke-dasharray="3 3"/></g>
+    </g>
+    <!-- 4: now -->
+    <g>
+      <circle cx="860" cy="180" r="0" fill="#27c93f" filter="url(#gl)"><animate attributeName="r" values="0;0;12;16;12;0" keyTimes="0;.26;.31;.6;.9;1" dur="10s" repeatCount="indefinite"/></circle>
+      <g opacity="0"><animate attributeName="opacity" values="0;0;1;1;0" keyTimes="0;.29;.35;.9;1" dur="10s" repeatCount="indefinite"/>
+        <rect x="750" y="220" width="220" height="100" rx="12" fill="#161b22" stroke="#27c93f"/>
+        <text x="860" y="248" font-size="13" fill="#27c93f">Mar 2024 – Present</text>
+        <text x="860" y="272" font-size="15" font-weight="700" fill="#e6edf3">RPA Analyst</text>
+        <text x="860" y="294" font-size="12" fill="#8b949e">Predoole Analytics, Mumbai</text>
+        <line x1="860" y1="190" x2="860" y2="220" stroke="#27c93f" stroke-dasharray="3 3"/></g>
+    </g>
+  </g>
+</svg>

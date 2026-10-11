@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="140" viewBox="0 0 1000 140">
+  <defs>
+    <linearGradient id="f" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#00f5ff"/><stop offset="1" stop-color="#a855f7"/></linearGradient>
+    <clipPath id="c"><rect width="1000" height="140" rx="0"/></clipPath>
+  </defs>
+  <g clip-path="url(#c)">
+    <path d="M0 60 Q125 20 250 60 T500 60 T750 60 T1000 60 T1250 60 T1500 60 T1750 60 T2000 60 V140 H0Z" fill="url(#f)" fill-opacity=".25">
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="-1000 0" dur="10s" repeatCount="indefinite"/></path>
+    <path d="M0 80 Q125 45 250 80 T500 80 T750 80 T1000 80 T1250 80 T1500 80 T1750 80 T2000 80 V140 H0Z" fill="url(#f)" fill-opacity=".45">
+      <animateTransform attributeName="transform" type="translate" from="-1000 0" to="0 0" dur="7s" repeatCount="indefinite"/></path>
+    <path d="M0 100 Q125 75 250 100 T500 100 T750 100 T1000 100 T1250 100 T1500 100 T1750 100 T2000 100 V140 H0Z" fill="url(#f)">
+      <animateTransform attributeName="transform" type="translate" from="0 0" to="-1000 0" dur="5s" repeatCount="indefinite"/></path>
+    <text x="500" y="125" text-anchor="middle" font-family="Segoe UI, Arial, sans-serif" font-size="14" fill="#0d1117" font-weight="700">Thanks for visiting ✨ Let's automate something great!</text>
+  </g>
+</svg>

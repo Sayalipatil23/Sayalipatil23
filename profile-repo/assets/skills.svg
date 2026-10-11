@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="380" viewBox="0 0 1000 380">
+  <defs>
+    <linearGradient id="bar" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#00f5ff"/><stop offset="1" stop-color="#a855f7"/></linearGradient>
+    <clipPath id="r"><rect width="1000" height="380" rx="16"/></clipPath>
+  </defs>
+  <g clip-path="url(#r)" font-family="Segoe UI, Arial, sans-serif">
+    <rect width="1000" height="380" fill="#0d1117"/>
+    <rect x="1" y="1" width="998" height="378" rx="16" fill="none" stroke="#30363d"/>
+    <!-- Each row: label, track, animated fill, percentage -->
+    <g font-size="16" fill="#e6edf3">
+      <text x="40" y="52">UiPath</text><rect x="220" y="38" width="640" height="14" rx="7" fill="#21262d"/>
+      <rect x="220" y="38" width="0" height="14" rx="7" fill="url(#bar)"><animate attributeName="width" values="0;576;576;0" keyTimes="0;.25;.9;1" dur="8s" repeatCount="indefinite"/></rect><text x="880" y="52" fill="#00f5ff">90%</text>
+
+      <text x="40" y="104">Power Automate</text><rect x="220" y="90" width="640" height="14" rx="7" fill="#21262d"/>
+      <rect x="220" y="90" width="0" height="14" rx="7" fill="url(#bar)"><animate attributeName="width" values="0;0;544;544;0" keyTimes="0;.05;.3;.9;1" dur="8s" repeatCount="indefinite"/></rect><text x="880" y="104" fill="#00f5ff">85%</text>
+
+      <text x="40" y="156">Blue Prism / AA</text><rect x="220" y="142" width="640" height="14" rx="7" fill="#21262d"/>
+      <rect x="220" y="142" width="0" height="14" rx="7" fill="url(#bar)"><animate attributeName="width" values="0;0;448;448;0" keyTimes="0;.1;.35;.9;1" dur="8s" repeatCount="indefinite"/></rect><text x="880" y="156" fill="#00f5ff">70%</text>
+
+      <text x="40" y="208">Python</text><rect x="220" y="194" width="640" height="14" rx="7" fill="#21262d"/>
+      <rect x="220" y="194" width="0" height="14" rx="7" fill="url(#bar)"><animate attributeName="width" values="0;0;512;512;0" keyTimes="0;.15;.4;.9;1" dur="8s" repeatCount="indefinite"/></rect><text x="880" y="208" fill="#a855f7">80%</text>
+
+      <text x="40" y="260">SQL</text><rect x="220" y="246" width="640" height="14" rx="7" fill="#21262d"/>
+      <rect x="220" y="246" width="0" height="14" rx="7" fill="url(#bar)"><animate attributeName="width" values="0;0;512;512;0" keyTimes="0;.2;.45;.9;1" dur="8s" repeatCount="indefinite"/></rect><text x="880" y="260" fill="#a855f7">80%</text>
+
+      <text x="40" y="312">GenAI / Agentic AI</text><rect x="220" y="298" width="640" height="14" rx="7" fill="#21262d"/>
+      <rect x="220" y="298" width="0" height="14" rx="7" fill="url(#bar)"><animate attributeName="width" values="0;0;480;480;0" keyTimes="0;.25;.5;.9;1" dur="8s" repeatCount="indefinite"/></rect><text x="880" y="312" fill="#a855f7">75%</text>
+
+      <text x="40" y="360" fill="#8b949e" font-size="13">Skill levels are self-assessed.</text>
+    </g>
+  </g>
+</svg>

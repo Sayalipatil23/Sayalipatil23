@@ -1,0 +1,39 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="230" viewBox="0 0 1000 230">
+  <defs>
+    <linearGradient id="sh" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fff" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".25"/><stop offset="1" stop-color="#fff" stop-opacity="0"/></linearGradient>
+    <clipPath id="a"><rect x="10" y="30" width="230" height="150" rx="16"/></clipPath>
+    <clipPath id="b"><rect x="260" y="30" width="230" height="150" rx="16"/></clipPath>
+    <clipPath id="c"><rect x="510" y="30" width="230" height="150" rx="16"/></clipPath>
+    <clipPath id="d"><rect x="760" y="30" width="230" height="150" rx="16"/></clipPath>
+  </defs>
+  <g font-family="Segoe UI, Arial, sans-serif" text-anchor="middle">
+    <!-- card 1 -->
+    <g><animateTransform attributeName="transform" type="translate" values="0 0;0 -8;0 0" dur="4s" repeatCount="indefinite"/>
+      <rect x="10" y="30" width="230" height="150" rx="16" fill="#161b22" stroke="#FA4616" stroke-width="2"><animate attributeName="stroke-opacity" values="1;.3;1" dur="3s" repeatCount="indefinite"/></rect>
+      <text x="125" y="75" font-size="34">🏅</text>
+      <text x="125" y="108" font-size="16" font-weight="700" fill="#FA4616">UiPath ADA</text>
+      <text x="125" y="132" font-size="12" fill="#8b949e">Automation Developer</text><text x="125" y="148" font-size="12" fill="#8b949e">Associate</text>
+      <rect x="-100" y="30" width="80" height="150" fill="url(#sh)" clip-path="url(#a)" transform="skewX(-20)"><animate attributeName="x" values="-100;350;350" keyTimes="0;.5;1" dur="5s" repeatCount="indefinite"/></rect></g>
+    <!-- card 2 -->
+    <g><animateTransform attributeName="transform" type="translate" values="0 0;0 -8;0 0" dur="4s" begin="-1s" repeatCount="indefinite"/>
+      <rect x="260" y="30" width="230" height="150" rx="16" fill="#161b22" stroke="#00f5ff" stroke-width="2"><animate attributeName="stroke-opacity" values="1;.3;1" dur="3s" begin="-1s" repeatCount="indefinite"/></rect>
+      <text x="375" y="75" font-size="34">🤖</text>
+      <text x="375" y="108" font-size="16" font-weight="700" fill="#00f5ff">UiPath Agentic</text>
+      <text x="375" y="132" font-size="12" fill="#8b949e">Agentic Automation</text><text x="375" y="148" font-size="12" fill="#8b949e">Associate</text>
+      <rect x="-100" y="30" width="80" height="150" fill="url(#sh)" clip-path="url(#b)" transform="skewX(-20)"><animate attributeName="x" values="150;600;600" keyTimes="0;.5;1" dur="5s" begin="-1s" repeatCount="indefinite"/></rect></g>
+    <!-- card 3 -->
+    <g><animateTransform attributeName="transform" type="translate" values="0 0;0 -8;0 0" dur="4s" begin="-2s" repeatCount="indefinite"/>
+      <rect x="510" y="30" width="230" height="150" rx="16" fill="#161b22" stroke="#a855f7" stroke-width="2"><animate attributeName="stroke-opacity" values="1;.3;1" dur="3s" begin="-2s" repeatCount="indefinite"/></rect>
+      <text x="625" y="75" font-size="34">☁️</text>
+      <text x="625" y="108" font-size="16" font-weight="700" fill="#a855f7">Azure ML Studio</text>
+      <text x="625" y="132" font-size="12" fill="#8b949e">ML Pipelines</text>
+      <rect x="-100" y="30" width="80" height="150" fill="url(#sh)" clip-path="url(#c)" transform="skewX(-20)"><animate attributeName="x" values="400;850;850" keyTimes="0;.5;1" dur="5s" begin="-2s" repeatCount="indefinite"/></rect></g>
+    <!-- card 4 -->
+    <g><animateTransform attributeName="transform" type="translate" values="0 0;0 -8;0 0" dur="4s" begin="-3s" repeatCount="indefinite"/>
+      <rect x="760" y="30" width="230" height="150" rx="16" fill="#161b22" stroke="#27c93f" stroke-width="2"><animate attributeName="stroke-opacity" values="1;.3;1" dur="3s" begin="-3s" repeatCount="indefinite"/></rect>
+      <text x="875" y="75" font-size="34">💻</text>
+      <text x="875" y="108" font-size="16" font-weight="700" fill="#27c93f">Java Full Stack</text>
+      <text x="875" y="132" font-size="12" fill="#8b949e">AngularJS · Linux CLI</text>
+      <rect x="-100" y="30" width="80" height="150" fill="url(#sh)" clip-path="url(#d)" transform="skewX(-20)"><animate attributeName="x" values="650;1100;1100" keyTimes="0;.5;1" dur="5s" begin="-3s" repeatCount="indefinite"/></rect></g>
+  </g>
+</svg>
