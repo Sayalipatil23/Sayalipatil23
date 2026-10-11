@@ -70,7 +70,7 @@
 
 I'm open to collaborating on **automation, GenAI and agentic AI** projects!
 
-[![LinkedIn](https://img.shields.io/badge/-Connect%20on%20LinkedIn-0A66C2?style=for-the-badge&logo=linkedin)](www.linkedin.com/in/sayali-patil-a62b9625b)
+[![LinkedIn](https://img.shields.io/badge/-Connect%20on%20LinkedIn-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/sayali-patil-a62b9625b/)
 [![Email](https://img.shields.io/badge/-Email%20Me-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sayalipatil2509@gmail.com)
 
 <img src="profile-repo/assets/footer.svg" width="100%"/>
