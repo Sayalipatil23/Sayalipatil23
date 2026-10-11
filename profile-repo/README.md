@@ -8,7 +8,7 @@
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Sayali%20Patil-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sayali-patila62b9625b)
 [![Gmail](https://img.shields.io/badge/Gmail-sayalipatil2509-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sayalipatil2509@gmail.com)
-![UiPath](https://img.shields.io/badge/UiPath-Certified-FA4616?style=for-the-badge&logo=uipath&logoColor=white)
+![UiPath](https://credentials.uipath.com/244d5fc6-bd52-435e-8a6d-e12bc97db003#acc.z5pSgyoi)
 
 <img src="assets/divider.svg" width="100%"/>
 
