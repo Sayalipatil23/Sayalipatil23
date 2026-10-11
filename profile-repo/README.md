@@ -7,7 +7,7 @@
 <br/>
 
 [![LinkedIn](https://img.shields.io/badge/LinkedIn-Sayali%20Patil-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/sayali-patil-a62b9625b)
-[![Gmail](https://img.shields.io/badge/Gmail-sayalipatil2509-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sayalipatil2509@gmail.com)
+[![Gmail](https://img.shields.io/badge/Gmail-sayalipatil2509-D14836?style=for-the-badge&logo=gmail&logoColor=white)](https://mail.google.com/mail/?view=cm&fs=1&to=sayalipatil2509@gmail.com&su=Hello%20Sayali)
 [![UiPath](https://img.shields.io/badge/UiPath-Certified-FA4616?style=for-the-badge&logo=uipath&logoColor=white)](#-certifications)
 
 <img src="https://raw.githubusercontent.com/Sayalipatil23/Sayalipatil23/main/profile-repo/assets/divider.svg" width="100%"/>
@@ -78,7 +78,7 @@
 I'm open to collaborating on **automation, GenAI and agentic AI** projects!
 
 [![LinkedIn](https://img.shields.io/badge/-Connect%20on%20LinkedIn-0A66C2?style=for-the-badge&logo=linkedin)](https://www.linkedin.com/in/sayali-patil-a62b9625b)
-[![Email](https://img.shields.io/badge/-Email%20Me-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:sayalipatil2509@gmail.com)
+[![Email](https://img.shields.io/badge/-Email%20Me-D14836?style=for-the-badge&logo=gmail&logoColor=white)](https://mail.google.com/mail/?view=cm&fs=1&to=sayalipatil2509@gmail.com&su=Hello%20Sayali)
 
 <img src="https://raw.githubusercontent.com/Sayalipatil23/Sayalipatil23/main/profile-repo/assets/footer.svg" width="100%"/>
 
